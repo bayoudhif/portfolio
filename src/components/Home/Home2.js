@@ -1,5 +1,5 @@
 import React from "react";
-import myImg from "../../Assets/avatar.png";
+import laptopImg from "../../Assets/about.png";
 import Tilt from "react-parallax-tilt";
 import { Container, Row, Col } from "react-bootstrap";
 import {
@@ -15,25 +15,24 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              <span className="purple"> KNOW WHO </span> I'M
             </h1>
             <p className="home-about-body">
-              I am Computers Systems Engineering Bachelor student  <span className="purple"> (IoT and embedded Systems). </span>
-              <br />
-              <br /> I am finishing up my degree at<i>
-                <b className="purple"> University of Sousse, Higher Institute of Computer Science and Communication Technologies of Hammam Sousse,Tunisia. </b>
-              </i> , where I have learned how to apply critical thinking and problem-solving strategies to today’s complex problems.
-
-              <br />
-              <br />
-              I have a passion for innovation and a desire to use technology to solve real-world problems. I am always seeking out new opportunities to learn and grow, and am excited to work on projects that have a positive impact on society. &nbsp;
-
-              <br />
+            Hi Everyone, I am  <span className="purple">Firas Bayoudhi</span> from &nbsp; 
+              <span className="purple">Tunisia, and Currently resident in Brussels.</span> <br />  <br />I am a junior <span className="purple">IoT Developer.</span>
+            <br />
+            <br />
+            Apart from IoT, I am passionate about <span className="purple">Web Development</span>  and <span className="purple">Artificial Intelligence.</span>
             </p>
+            <p style={{ color: "#5e87f5" }}>
+            "Success is often achieved by those who don’t know that failure is inevitable."{" "}
+          </p>
+            <footer className="blockquote-footer">Coco Chanel, fashion designer</footer>
+
           </Col>
-          <Col md={4} className="myAvtar">
+          <Col md={3} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={laptopImg} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
         </Row>

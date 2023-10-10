@@ -4,7 +4,6 @@ import {
   SiLinux,
   SiVisualstudiocode,
   SiPostman,
-  SiAdobephotoshop,
   SiRabbitmq,
 } from "react-icons/si";
 
@@ -23,9 +22,7 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiRabbitmq />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiAdobephotoshop />
-      </Col>
+      
     </Row>
   );
 }
