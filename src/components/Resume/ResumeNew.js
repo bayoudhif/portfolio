@@ -9,7 +9,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://bayoudhi.vercel.app/static/media/Bayoudhi_Firas_CV.ac6c9eb94afaba0b7732.pdf";
+  "https://bayoudhi.be/static/media/Bayoudhi_Firas_CV.915207cc39d20371b8b4.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
