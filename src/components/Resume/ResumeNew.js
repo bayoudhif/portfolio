@@ -2,14 +2,14 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/CV_Firas.pdf";
+import pdf from "../../Assets/../Assets/Bayoudhi_Firas_CV.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://portfolio.bayoudhif.repl.co/static/media/CV_Firas.daff85b2e057bf410b46.pdf";
+  "https://bayoudhi.be/static/media/Bayoudhi_Firas_CV.915207cc39d20371b8b4.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
