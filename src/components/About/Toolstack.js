@@ -5,6 +5,11 @@ import {
   SiVisualstudiocode,
   SiPostman,
   SiRabbitmq,
+  SiJirasoftware,
+  SiDocker,
+  SiGit,
+  SiGithub,
+  SiVercel,
 } from "react-icons/si";
 
 function Toolstack() {
@@ -22,7 +27,21 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiRabbitmq />
       </Col>
-      
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGit />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGithub />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiDocker />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiJirasoftware />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiVercel />
+      </Col>
     </Row>
   );
 }

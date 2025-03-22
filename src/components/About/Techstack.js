@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { FaRaspberryPi } from "react-icons/fa";
+import { FaRaspberryPi, FaDatabase, FaJava } from "react-icons/fa";
 import {
   DiJavascript1,
   DiReact,
@@ -8,11 +8,17 @@ import {
   DiMongodb,
   DiPython,
   DiGit,
+  DiSqllite,
 } from "react-icons/di";
 import {
   SiFirebase,
   SiArduino,
   SiFlask,
+  SiMysql,
+  SiLinux,
+  SiDocker,
+  SiJirasoftware,
+  SiCplusplus,
 } from "react-icons/si";
 
 function Techstack() {
@@ -22,31 +28,52 @@ function Techstack() {
         <FaRaspberryPi />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <DiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <SiCplusplus  />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaJava />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <DiNodejs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiFlask />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <SiFirebase />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <DiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiArduino/>
+        <SiMysql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiSqllite />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiArduino />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiGit />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiLinux />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiJirasoftware />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaDatabase />
       </Col>
     </Row>
   );
